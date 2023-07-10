@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(255, 0, 191);
+}
+.con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.coupon-con {
+    background-color: #252525;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.coupon-con h3 {
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 24px;
+}
+.coupon-con input[type='text'] {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+.coupon-con .btn {
+    padding: 0.5rem;
+    color: white;
+    background-color: #ff0000;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.input-con {
+    display: flex;
+    justify-content: space-between;
+}
